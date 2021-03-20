@@ -39,8 +39,6 @@ export const blogPosts = [
     title: "Nullity of the succession agreements and of the joint will",
     publishDetails: 'published on 4/3/2021 in "Notaries"',
     descriptions:
-      "The art. 589 cc prohibits the "simultaneous" will, establishing that two or more people cannot make a will in the same deed, reciprocally or in favor of third parties.",
+      "The art. 589 cc prohibits the simultaneous will, establishing that two or more people cannot make a will in the same deed, reciprocally or in favor of third parties.",
   },
-
 ];
-export blogPosts;
