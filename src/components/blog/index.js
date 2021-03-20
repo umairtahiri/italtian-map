@@ -13,13 +13,16 @@ const Blog = () => {
           related to the notary profession.
         </p>
       </div>
-      <div>
+      <div className="blogs-container">
         {blogPosts.map((article = {}, index) => {
           return (
-            <div className="article-list1" key={index}>
-              {" "}
-              <img className="img1" src={article.img} />
-              {article.title}
+            <div className="blog-post" key={index}>
+              <img className="blog-image" src={article.img} />
+              <div className="blog-content">
+                <div className="title">{article.title}</div>
+                <div className="publish">{article.publishDetails}</div>
+                <div className="description">{article.descriptions}</div>
+              </div>
             </div>
           );
         })}
